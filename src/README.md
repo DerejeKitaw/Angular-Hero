@@ -34,3 +34,14 @@ ng g class pages/heroes/hero -d
 ng g module pages/dashboard --routing -d
 ng g c pages/dashboard/dashboard -m=pages -d
 ```
+
+### Generate @theme module
+### Generate hero model
+```
+ng g module @theme/theme -m=app -d
+```
+### Generate main-layout component
+```
+ng g c @theme/layouts/main-layout -d
+```
+

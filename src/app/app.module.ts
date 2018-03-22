@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { PagesModule } from './pages/pages.module';
+import { ThemeModule } from './@theme/theme.module';
 
 
 @NgModule({
@@ -14,7 +15,10 @@ import { PagesModule } from './pages/pages.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    PagesModule
+
+    PagesModule,
+  ],
+  exports: [
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -5,13 +5,15 @@ import { PagesRoutingModule } from './pages-routing.module';
 import { HeroesModule } from './heroes/heroes.module';
 import { PagesComponent } from './pages.component';
 import { DashboardModule } from './dashboard/dashboard.module';
+import { ThemeModule } from '../@theme/theme.module';
 
 @NgModule({
   imports: [
     CommonModule,
     PagesRoutingModule,
     HeroesModule,
-    DashboardModule
+    DashboardModule,
+    ThemeModule,
   ],
   declarations: [PagesComponent]
 })

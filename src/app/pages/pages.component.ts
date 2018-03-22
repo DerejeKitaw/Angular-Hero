@@ -3,17 +3,14 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-pages',
   template: `
-    <p>
-      pages works!
-    </p>
+  <app-main-layout>
+    <router-outlet></router-outlet>
+  </app-main-layout>
   `,
   styleUrls: ['./pages.component.scss']
 })
 export class PagesComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }
